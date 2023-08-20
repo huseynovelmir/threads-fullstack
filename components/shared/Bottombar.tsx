@@ -7,7 +7,8 @@ import { usePathname } from "next/navigation";
 import { sidebarLinks } from "@/constants";
 
 function Bottombar() {
-  
+  const num = 1;
+
   const pathname = usePathname();
 
   return (
@@ -30,6 +31,7 @@ function Bottombar() {
                 width={16}
                 height={16}
                 className='object-contain'
+
               />
 
               <p className='text-subtle-medium text-light-1 max-sm:hidden'>
